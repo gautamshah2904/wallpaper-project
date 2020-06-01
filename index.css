@@ -1,0 +1,449 @@
+body
+{
+margin:0;
+padding: 0;
+height: 100vh;
+width: 100vw;
+background-color: #333;
+resize: none;
+overflow-x: hidden;
+font-family:arial;
+}
+header
+{
+position: sticky;
+height: 14vh;
+min-height: 100px;
+width: 100%;
+background-color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+color: black;
+font-size: 400%;
+overflow: hidden;
+}
+header a
+{
+text-decoration: none;
+color: #000;
+}
+#logo
+{
+display: block;
+position: absolute;
+left: 7%;
+overflow: hidden;
+}
+#search
+{
+transition: all 1000ms ease;
+
+}
+#menu
+{
+height: 50px;
+width: 120px;
+display: block;
+position: absolute;
+right: 7%;
+overflow: hidden;
+transition: all 1000ms ease;
+z-index: 4;
+}
+#menu_icon
+{
+ height: 100%;
+ width: 100%;
+ z-index: 5;
+}
+#bar1
+{
+height: 20%;
+width: 80%;
+position: absolute;
+top: 0;
+left: 10%;
+background-color: black;
+transition: all 1000ms ease;
+}
+#bar2
+{
+height: 20%;
+width: 80%;
+position: absolute;
+top: 40%;
+left: 10%;
+background-color: black;
+transition: all 1000ms ease;
+}
+#bar3
+{
+height: 20%;
+width: 80%;
+position: absolute;
+bottom: 0;
+left: 10%;
+background-color: black;
+transition: all 1000ms ease;
+}
+#on_menu_click
+{
+display: block;
+position: fixed;
+top: 0;
+right: 0;
+width: 0%;
+height: 100vh;
+font-size: 200%;
+background-color: #bbb;
+overflow: hidden;
+color: black;
+opacity: 0.95;
+z-index: 2;
+border-top-left-radius: 5%;
+border-bottom-left-radius: 5%;
+transition: all 1000ms ease;
+z-index: 1;
+}
+#profile
+{
+height: 100%;
+width: 100%;
+visibility: hidden;
+}
+#profile a
+{
+text-decoration: none;
+color: inherit;
+}
+#profile a:hover
+{
+text-decoration: underline;
+}
+#user_detail
+{
+display: block;
+height: 10%;
+min-height: 170px;
+border-bottom: 2px solid #999;
+overflow: hidden;
+}
+#user_image
+{
+display: inline-block;
+position: absolute;
+top: 3%;
+right: 10%;
+height: 100px;
+width: 100px;
+border-radius: 200%;
+z-index: 11;
+}
+#user_image img
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+height: 100px;
+width: 100px;
+}
+#account,#sign_in_or_out,#upload,#create_account,#help,#contact_us,#about_us
+{
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+height: 7%;
+}
+#user_image:hover,#user_name:hover,#account:hover,#sign_in_or_out:hover,#upload:hover,#create_account:hover,#help:hover,#contact_us:hover,#about_us:hover
+{
+cursor: pointer;
+transition: all 1000ms ease;
+}
+#display_image
+{
+display: block;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+padding-top: 1%;
+margin-bottom: 0; 
+background-color: #fff;
+}
+#display_image_body
+{
+height: 100%;
+width: 100%;
+}
+#outsidebox
+{
+height: 550px;
+width: 30%;
+overflow: hidden;
+display: inline-block;
+box-shadow: 0px 0px 20px rgba(0,0,0,1); 
+margin-left: 2%;
+margin-bottom: 1%; 
+transition: all 1000ms ease;
+}
+#insidebox
+{
+height:98%;
+margin: 1%;
+overflow: hidden;
+box-shadow: 0px 0px 20px rgba(0,0,0,1); 
+background-color: #000;
+position: relative;
+}
+#cattext
+{
+font-size: 300%;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+color: white;
+transition: all 500ms ease;
+}
+#imagesize
+{
+display: inline;
+height: 100%;
+width: 100%;
+object-fit: cover;
+object-position: center center;
+}
+#insidebox img
+{
+cursor: pointer;
+transition: all 1000ms ease;
+}
+#insidebox img:hover
+{
+transition: all 2000ms ease;
+}
+#outsidebox:hover
+{
+background-color: #aaa;
+transition: all 2000ms ease;
+}
+#cattext:hover
+{
+transition: all 500ms ease;
+font-size: 400%;
+cursor: pointer;
+}
+footer
+{
+display: block;
+position: relative;
+
+}
+#detail
+{
+margin: 0;
+min-height: 900px;
+width: 100%;
+color: #fff;
+font-family: arial;
+text-transform: uppercase;
+font-size: 175%;
+background-color: #333;
+}
+#detail a
+{
+color: #fff;
+text-decoration: none;
+}
+#detail a:hover
+{
+text-decoration: underline;
+}
+#account
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+#website_detail
+{
+	width: 95%;
+	position: absolute;
+	top: 7%;
+	margin-left: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+#detail_link1
+{
+	width: 95%;
+	position: absolute;
+	top: 32%;
+	margin-left: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+#detail_link2
+{
+	width: 95%;
+	position: absolute;
+	top: 38%;
+	margin-left: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+#detail_link3
+{
+	width: 95%;
+	position: absolute;
+	top: 44%;
+	margin-left: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+#detail_link4
+{
+	width: 95%;
+	position: absolute;
+	top: 50%;
+	margin-left: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+#detail_link5
+{
+	width: 95%;
+	position: absolute;
+	top: 57%;
+	margin-left: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+#detail_link6
+{
+	width: 95%;
+	position: absolute;
+	top: 64%;
+	margin-left: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+#detail_link7
+{
+	width: 95%;
+	position: absolute;
+	top: 71%;
+	margin-left: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+#website_rights
+{
+	width: 95%;
+	position: absolute;
+	top: 95%;
+	margin-left: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;			
+}
+
+#output_image
+{
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin-top: 10%;
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 150%;
+}
+
+/*the container must be positioned relative:*/
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+#search input {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#search input[type=text] {
+  background-color: #e6e5e5;
+  width: 100%;
+}
+
+#search input[type=submit] {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  margin-left: -5%;
+}
+#search	input:focus {
+    outline:none;
+}
+#search button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #333;
+  width: 23%;
+  border: 0;
+  padding: 1.5% 1% 2.5%;
+  color: #FFFFFF;
+  margin: 0;
+  font-size: 32%;
+  -webkit-transition: all 0.3 ease;
+  transition: all 1000ms ease;
+  cursor: pointer;
+  margin-left: -5%;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 100;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+  border-bottom: 1px solid #d4d4d4; 
+  font-size: 30%;
+}
+
+/*when hovering an item:*/
+.autocomplete-items div:hover {
+  background-color: #fafafa; 
+}
+
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active {
+  background-color: #333 !important; 
+  color: #ffffff; 
+}
+* {
+  box-sizing: border-box;
+}
