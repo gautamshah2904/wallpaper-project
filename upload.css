@@ -1,0 +1,92 @@
+#upload_account_box
+{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.upload_form {
+  position: relative;
+  background: #FFFFFF;
+  width: 35%;
+  height: 100%;
+  margin: 10% auto 10%;
+  padding: 3%;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.upload_form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 8% 0 0%;
+  padding: 4%;
+  box-sizing: border-box;
+  font-size: 120%;
+}
+.upload_form label,
+.upload_form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #333;
+  width: 100%;
+  border: 0;
+  padding: 4%;
+  color: #FFFFFF;
+  font-size: 120%;
+  -webkit-transition: all 0.3 ease;
+  transition: all 1000ms ease;
+  cursor: pointer;
+}
+.upload_form button
+{
+  margin-top: 10%;
+}
+
+.upload_form label
+{
+  padding-left:10%;
+  padding-right: 10%; 
+}
+.upload_form label:hover
+{
+  background-color:#454545;
+}
+.upload_form button:hover {
+  background:#454545;
+}
+#profile_photo_file
+{
+  display: none;
+}
+.upload_form .message ,.upload_form .forgot{
+  margin: 10% 0 0;
+  color: #b3b3b3;
+  font-size: 120%;
+}
+.upload_form .message a,.upload_form .forgot a {
+  color: #222;
+  text-decoration: none;
+}
+.upload_form .register-form {
+  display: none;
+}
+
+#user_image_box img
+{
+  border: 1px solid black;
+  border-radius: 100%;
+  border:0.5px;
+}
+.upload_box_name
+{
+  font-size: 150%;
+}
+.login-form #output_image
+{
+  border-radius: 0%;
+}
