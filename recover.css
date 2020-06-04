@@ -1,0 +1,90 @@
+
+.recover-form {
+  position: relative;
+  background: #FFFFFF;
+  width: 35%;
+  height: 100%;
+  margin: 10% auto 10%;
+  padding: 3%;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.recover-form textarea
+{
+  resize: none;
+}
+.recover-form input{
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 2%;
+  padding: 4%;
+  box-sizing: border-box;
+  font-size: 120%;
+}
+.recover-form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #333;
+  width: 100%;
+  border: 0;
+  padding: 4%;
+  color: #FFFFFF;
+  margin: 5% 0 5%;
+  font-size: 120%;
+  -webkit-transition: all 0.3 ease;
+  transition: all 1000ms ease;
+  cursor: pointer;
+}
+.recover-form button:hover,.recover-form button:active,.recover-form button:focus {
+  background:#454545;
+}
+.recover-form .message ,.recover-form .forgot{
+  margin: 10% 0 0;
+  color: #b3b3b3;
+  font-size: 120%;
+}
+.recover-form .message a,.recover-form .forgot a {
+  color: #222;
+  text-decoration: none;
+}
+.recover-form .register-recover-form {
+  display: none;
+}
+#wrong_id,#wrong_otp
+{
+  display: none;
+  font-weight: bold;  
+  font-size: 120%;
+  position: relative;
+  left: -20%;
+  color: #444;
+}
+#wrong_id a
+{
+  text-decoration: none;
+  color: #444;
+
+  transition: all 1000ms ease;
+}
+#wrong_id a:hover
+{
+  text-decoration: underline;
+  color: #000;
+  transition: all 1000ms ease;
+}
+#wrong_otp
+{
+  font-weight: bold;  
+  font-size: 120%;
+  position: relative;
+  left: -38%;
+  color: #444;
+}
+#otpmail
+{
+  display: block;
+}
