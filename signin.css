@@ -1,0 +1,111 @@
+#Sign_In
+{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.sign-form {
+  position: relative;
+  background: #FFFFFF;
+  width: 35%;
+  height: 100%;
+  margin: 10% auto 10%;
+  padding: 3%;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.sign-form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 10%;
+  padding: 4%;
+  box-sizing: border-box;
+  font-size: 120%;
+}
+.sign-form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #333;
+  width: 100%;
+  border: 0;
+  padding: 4%;
+  color: #FFFFFF;
+  font-size: 120%;
+  -webkit-transition: all 0.3 ease;
+  transition: all 1000ms ease;
+  cursor: pointer;
+}
+.sign-form button:hover,.sign-form button:active,.sign-form button:focus {
+  background:#454545;
+}
+.sign-form .message ,.sign-form .forgot{
+  margin: 10% 0 0;
+  color: #b3b3b3;
+  font-size: 120%;
+}
+.sign-form .forgot
+{
+  margin-top: 5%;
+}
+
+.sign-form .message a,.sign-form .forgot a {
+  color: #222;
+  text-decoration: none;
+}
+.sign-form .register-sign-form {
+  display: none;
+}
+#wrong_password
+{
+  display: none;
+  margin-top: 5%;
+  font-weight: bold;
+  
+}
+#go_btn
+{
+  background: #333;
+  color: #FFF;
+}
+#go_btn:hover
+{
+  cursor: pointer;
+  background:#444; 
+}
+#question_main_head
+{
+  font-size: 135%;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+}
+.already_login_box
+{
+  position: relative;
+    background: #FFFFFF;
+    width: 55%;
+    height: 100%;
+    margin: 1% auto 5%;
+    padding: 3%;
+    font-size: 155%;
+    font-family: "Roboto", sans-serif;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    color: #777;
+    text-align: center;
+}
+.already_login_box a
+{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+.already_login_box a:hover
+{
+  text-decoration: underline;
+}
