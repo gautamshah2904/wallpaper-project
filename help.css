@@ -1,0 +1,33 @@
+.help_box
+{
+  position: relative;
+  background: #FFFFFF;
+  width: 55%;
+  height: 100%;
+  margin: 1% auto 5%;
+  padding: 3%;
+  text-align: ;
+  font-size: 115%;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  color: #777;
+}
+#question_main_line
+{
+	font-size: 115%;
+	font-weight: bold;
+	color: #000;
+}
+#question_main
+{
+	font-size: 135%;
+	font-weight: bold;
+	color: #000;
+}
+#image_box
+{
+	width: 100%;
+	padding: 1%;
+	padding-left: 0;
+	overflow: hidden;
+}
