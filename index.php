@@ -658,8 +658,8 @@ We want to keep this site useful and fun for everybody, so if there is anything 
 						$mail->Port = 587; // TLS only
 						$mail->SMTPSecure = 'tls'; // ssl is deprecated
 						$mail->SMTPAuth = true;
-						$mail->Username = 'gautamshah2904@gmail.com'; // email
-						$mail->Password = 'gautam779'; // password
+						$mail->Username = 'your@email'; // email
+						$mail->Password = 'password'; // password
 						$mail->setFrom('gautamshah2904@gmail.com', 'gautam'); // From email and name
 						$mail->addAddress($otp_email,''); // to email and name
 						$mail->Subject = 'OTP FOR RECOVERING ACCOUNT';
